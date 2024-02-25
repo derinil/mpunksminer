@@ -5,8 +5,9 @@
 This project is for archival purposes only. It was written back in 2021. It currently does not compile due to breaking changes in Zig. Git history was wiped.
 
 This is a thirdparty "miner" for the https://www.mpunks.org project. These NFTs were only mintable if you had a 128 bit integer
-that would produce a KECCAK-256 hash that fit the conditions in the ETH contract. When this project was first released, the official miner was
-a web worker script (Javascript running on browser). This was the first miner that ran directly on CPU and GPU.
+that would produce a KECCAK-256 hash that fit the conditions in the ETH contract (or something along those lines, I'm not sure exactly, it's been a while).
+When this project was first released, the official miner was a web worker script (Javascript running on browser).
+This was the first miner that ran directly on CPU and GPU.
 The KECCAK-256 C hasher in `src/miner.cl` is taken from [the solidity codebase](https://github.com/ethereum/solidity/blob/develop/libsolutil/Keccak256.cpp).
 
 ## Warning: there are no downloads available, you will have to compile this yourself.
